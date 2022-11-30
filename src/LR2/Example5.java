@@ -5,12 +5,15 @@ public class Example5 {
         Scanner in = new Scanner(System.in);
         System.out.println("Введите число");
         int num = in.nextInt();
-        int answer = num % 10000;
-        for ( int i = 0; i < 4; i++) {
-            int num1 = num % 10;
+        int num1 = num / 10;
+        int num2 = num1 / 10;
+        int num3 = num2 / 10;
+        int answer = num3 % 10;
 
-            System.out.println(num1);
+
+
+        System.out.println("В вашем числе такое количество тысяч " + answer + " (определяется четвертая цифра справа в десятичном представлении числа)");
 
         }
     }
-}
+

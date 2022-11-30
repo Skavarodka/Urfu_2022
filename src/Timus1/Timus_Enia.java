@@ -1,7 +1,7 @@
-package Timus;
+package Timus1;
 import java.io.PrintWriter;
 import java.util.Scanner;
-public class Timus1 {
+public class Timus_Enia {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         PrintWriter out = new PrintWriter(System.out);
