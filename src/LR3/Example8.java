@@ -11,12 +11,9 @@ public class Example8 {
             if (i == 10) {
                 break;
             }
-
             if ( letters == 65 || letters == 69 || letters == 73 ) {
                 i--;
-                continue;
             }
-
         }
         for (int i = 0; i < 10; i++) {
             System.out.println(array[i]);
