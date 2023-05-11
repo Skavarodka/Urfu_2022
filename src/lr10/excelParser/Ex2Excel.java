@@ -43,7 +43,7 @@ public class Ex2Excel {
                 }
                 System.out.println();
             }
-           // workbook.close();
+            workbook.close();
             inputStream.close();
         } catch (NotOfficeXmlFileException e){
             System.out.println("Указан не Excel-файл. Укажите файл example.xlsx и запустите программу снова.");
