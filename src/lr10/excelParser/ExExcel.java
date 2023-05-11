@@ -51,7 +51,7 @@ public class ExExcel {
         String filePath = "src/lab10/Ex4/Ex5.xlsx";
         FileOutputStream outputStream = new FileOutputStream(filePath);
         workbook.write(outputStream);
-       // workbook.close();
+        workbook.close();
         outputStream.close();
 
         System.out.println("Данные записанны в файл: " + filePath);
